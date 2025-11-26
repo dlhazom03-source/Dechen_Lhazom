@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--This website was created by: Dechen Lhazom-->
+<html lang="en">
+
+<head>
+    <title>100SMILES Dental Care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Source+Sans+3:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>100SMILES Dental Care</h1>
+        </header>
+
+        <!--Navigation Bar-->
+        <div class="info-panel">
+            <div class="info-left">
+                <a href="booking.html" class="panel-link">🗓️ Book Online</a>
+
+                <details class="hours-dropdown">
+                    <summary>🕗 Office Hours</summary>
+                    <ul>
+                        <li>Mon to Fri: 8:30am – 6:30pm</li>
+                        <li>Saturday and Sunday: 8:30am – 1:00pm</li>
+                    </ul>
+                </details>
+            </div>
+
+            <div class="info-right">
+                <a href="tel:0750005599" class="panel-link">📞 07 5000 5599</a>
+                <a href="mailto:admin@100smilesdentalcare.com.au" class="panel-link">✉️ Email Us</a>
+            </div>
+        </div>
+
+        <!-- Desktop / Tablet Navigation -->
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Navigation -->
+         <div id="overlay" onclick="closeMenu()"></div>
+
+        <div id="side-menu">
+            <div class="close-btn" onclick="closeMenu()">✕</div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="booking.html">Book Online</a>
+        </div>
+
+        <nav class="mobile-nav">
+            <a href="booking.html" class="mobile-book-btn">Book Online</a>
+            <div class="menu-icon" onclick="openMenu()">&#9776;</div>
+        </nav>
+
+        <main>
+            <section class="services"> <!--General services overview-->
+                <h1>100Smiles Dental Care Services</h1>
+                <h2>Services For All Your Dental Needs</h2>
+                <p>
+                    At <b>100SMILES Dental Care</b>, we offer a full range of treatments designed to keep your teeth and
+                    gums healthy.
+                    Whether you need a routine check-up or specialised treatment, our experienced team provides various
+                    dental services using proven methods and modern equipment.
+                </p>
+
+                <p><b>General Dentistry:</b> Regular check-ups, cleanings, and fillings to maintain healthy teeth and
+                    gums.</p>
+
+                <p><b>Orthodontics:</b> Braces and aligners for improved alignment and bite correction for all age
+                    groups.</p>
+
+                <p><b>Cosmetic Dentistry:</b> Whitening, veneers, and other aesthetic treatments that restore natural
+                    appearance.</p>
+
+                <p><b>Dental Implants:</b> Durable replacements for missing teeth using advanced implant technology.</p>
+
+                <p><b>Emergency Dental Care:</b> Same-day attention for dental pain, accidents, or unexpected oral
+                    issues.</p>
+
+            </section>
+
+            <section class="new-tech">
+                <h2>Our New Dental Technologies</h2>
+                <p>
+                    At 100SMILES Dental Care, we continually update our equipment and techniques so our patients
+                    receive modern, reliable and comfortable care. The following technologies have recently been
+                    introduced to enhance accuracy, safety and overall treatment experience.
+                </p>
+
+                <div class="new-tech-grid">
+
+                    <article class="new-tech-item">
+                        <figure>
+                            <img src="Images/dental-radiograph-monitor.jpeg"
+                                alt="Digital dental X-ray displayed on a computer monitor">
+                            <figcaption>High-resolution digital dental X-rays for clearer diagnosis.</figcaption>
+                        </figure>
+                        <h3 class="tech-title">Digital X-Rays</h3>
+                        <div class="tech-info">
+
+                            <p>Our upgraded digital X-ray system produces clear, high-resolution images while using
+                                noticeably
+                                less radiation than older methods. Results appear instantly, allowing our team to assess
+                                your
+                                dental health quickly and plan treatment without delay.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="new-tech-item">
+                        <figure>
+                            <img src="Images/happy-patient.jpeg"
+                                alt="Patient receiving an oral examination with dental instruments">
+                            <figcaption>Close-up imaging helps patients understand their oral health.</figcaption>
+                        </figure>
+                        <h3 class="tech-title">Intraoral Cameras</h3>
+                        <div class="tech-info">
+                            <p>Intraoral cameras capture detailed images of your teeth and gums, helping us identify
+                                dental
+                                issues early and explain treatment options with clarity.</p>
+                        </div>
+                    </article>
+
+                    <article class="new-tech-item">
+                        <figure>
+                            <img src="Images/tooth-root-anatomy.jpeg" alt="Image of tooth and root anatomy">
+                            <figcaption>Laser-assisted care for precise gum and root treatment.</figcaption>
+                        </figure>
+                        <h3 class="tech-title">Laser Dentistry</h3>
+                        <div class="tech-info">
+                            <p>We use advanced dental lasers for gentle treatments that reduce discomfort and healing
+                                time.
+                                This
+                                technology supports procedures such as gum therapy and cavity detection.</p>
+                        </div>
+                    </article>
+
+                    <article class="new-tech-item">
+                        <figure>
+                            <img src="Images/3Dteeth.jpeg"
+                                alt="CAD/CAM dental milling machine creating a tooth restoration">
+                            <figcaption>Custom crowns and restorations crafted in a single visit.</figcaption>
+                        </figure>
+                        <h3 class="tech-title">CAD/CAM Technology</h3>
+                        <div class="tech-info">
+                            <p>Our CAD/CAM system designs and creates custom crowns, veneers, and restorations during
+                                the
+                                same
+                                appointment. This ensures excellent precision and a natural-looking result.</p>
+                        </div>
+                    </article>
+
+                    <article class="new-tech-item">
+                        <figure>
+                            <img src="Images/dental-implant-diagram.jpeg"
+                                alt="3D digital model of dental implants for treatment planning">
+                            <figcaption>Digital planning improves accuracy in restorative and implant care.</figcaption>
+                        </figure>
+                        <h3 class="tech-title">3D Printing</h3>
+                        <div class="tech-info">
+                            <p>We use 3D printing to create detailed dental models and guides that support more accurate
+                                procedures and personalised treatment plans.</p>
+                        </div>
+                    </article>
+                    <article class="new-tech-item">
+                        <figure>
+                            <img src="Images/patient-smiling-dental-chair.jpeg"
+                                alt="Patient smiling while receiving virtual dental advice at 100SMILES Dental Care">
+                            <figcaption>Virtual consultations offering convenient access to care.</figcaption>
+                        </figure>
+                        <h3 class="tech-title">Teledentistry</h3>
+                        <div class="tech-info">
+                            <p>Our teledentistry service gives patients access to virtual consultations, allowing you to
+                                receive
+                                professional advice and early assessment without visiting the clinic.</p>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+            <!--Annual Checkup Section-->
+            <section id="annual-checkup">
+                <h2>Annual Dental Check-Up Package</h2>
+
+                <div class="checkup-flex">
+
+                    <figure class="checkup-image">
+                        <img src="Images/patient_dental_xray.jpg" alt="Dentist performing dental X-ray on male patient">
+                        <figcaption>Comprehensive check-ups for lasting dental health.</figcaption>
+                    </figure>
+
+                    <div class="checkup-info">
+                        <p>Our Annual Dental Check-Up is designed to help maintain your oral health with a range of
+                            essential
+                            services, including:
+                        </p>
+
+                        <ul>
+                            <li><b>Physical Examination:</b> A full check of your teeth and gums to identify any early
+                                signs of concern.</li>
+                            <li><b>Cleanings:</b> Professional removal of plaque and tartar buildup for clean, smooth
+                                teeth.</li>
+                            <li><b>X-Rays:</b> Imaging to identify hidden issues early.</li>
+                            <li><b>Dental Health Evaluation:</b> Professional advice on oral hygiene and disease
+                                prevention.</li>
+                            <li><b>Nutritional Guidance:</b> Recommendations to support healthy teeth and gums.</li>
+                            <li><b>Laboratory Work (if required):</b> Diagnostic tests tailored to your dental history.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="article"> <!--Informational article-->
+                <div class="checkup-image">
+                    <figure>
+                        <img src="Images/dental_hygiene_products.jpg"
+                            alt="Toothbrush, toothpaste, mouthwash, and dental floss on blue background" width="500"
+                            height="300">
+                        <figcaption>Maintain your oral hygiene with proper products and care.</figcaption>
+                    </figure>
+                </div>
+                <div class="checkup-text">
+                    <h2>The Importance of Annual Dental Check-Ups</h2>
+                    <p>
+                        Regular dental visits are essential for maintaining a healthy, confident smile.
+                        Annual Dental Check-ups help detect health issues early, prevent disease, and promote lifelong
+                        oral
+                        health.
+                    </p>
+
+                    <h3>1. Early Detection of Health Issues</h3>
+                    <p>
+                        Routine check-ups allow dentists to identify potential dental or gum problems before they
+                        escalate,
+                        leading to more effective and affordable treatments.
+                    </p>
+
+                    <h3>2. Preventive Care</h3>
+                    <p>
+                        Regular cleanings and X-rays reduce the risk of cavities and gum disease, contributing to your
+                        overall well-being.
+                    </p>
+
+                    <h3>3. Tailored Nutritional Guidance</h3>
+                    <p>
+                        Your dentist can provide personalised advice about your diet to support strong teeth and gums at
+                        every stage of life.
+                    </p>
+
+                    <h3>4. Holistic Well-being</h3>
+                    <p>
+                        Good oral health is linked to better general health. Regular check-ups keep your whole body
+                        healthier.
+                    </p>
+
+                    <p>To learn more, visit these trusted resources:</p> <!--Link to other informational articles-->
+                    <ul>
+                        <li><a href="https://www.qld.gov.au/health/staying-healthy/oral-health/visiting-the-dentist/regular-dental-check-ups"
+                                target="_blank" rel="noopener">Queensland Health: Regular Dental Check-Ups</a></li>
+                        <li><a href="https://my.clevelandclinic.org/health/treatments/16914-oral-hygiene"
+                                target="_blank" rel="noopener">Cleveland Clinic: Oral Hygiene</a></li>
+                        <li><a href="https://www.healthdirect.gov.au/dental-implant" target="_blank"
+                                rel="noopener">HealthDirect: Dental Implants</a></li>
+                        <li><a href="https://www.colgate.com.au/oral-health/selecting-dental-products/choosing-the-right-toothbrush"
+                                target="_blank" rel="noopener">Colgate: Choosing the Right Toothbrush</a></li>
+                    </ul>
+
+                    <p><em>Regular dental check-ups are one of the simplest ways to protect your health and prevent
+                            future
+                            problems. It’s a lifelong investment in your wellbeing.</em></p>
+                </div>
+            </section>
+
+            <section id="free-checkup" class="service-free-checkup">
+                <h2>Free Dental Check-Up Day</h2>
+
+                <p>
+                    As part of our commitment to community oral health, 100SMILES Dental Care will be offering
+                    <strong>free dental check-ups</strong> on <strong>Saturday, 5th July</strong>, starting from
+                    <strong>9:00 a.m.</strong> This special one-day event gives new and existing patients the chance
+                    to receive essential preventive care at no cost.
+                </p>
+
+                <figure class="free-checkup-image">
+                    <img src="Images/happy-patient.jpeg"
+                        alt="Patient smiling in the dental chair after receiving a check-up at 100SMILES Dental Care">
+                    <figcaption>A healthy smile begins with regular check-ups and preventive care.</figcaption>
+                </figure>
+
+                <h3>How to Book Your Appointment</h3>
+                <p>Appointments are limited and must be booked in advance. You can reserve your free check-up by:</p>
+
+                <ul>
+                    <li><strong>Calling:</strong> <a href="tel:0713275599">07 1327 5599</a></li>
+                    <li><strong>Emailing:</strong>
+                        <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a>
+                    </li>
+                    <li><strong>Visiting us:</strong> 195 Fantail Street, Cairnville QLD</li>
+                </ul>
+
+                <h3>What Your Free Check-Up Includes</h3>
+                <ul>
+                    <li><strong>Comprehensive Examination:</strong> Full assessment of teeth, gums, and oral health.
+                    </li>
+                    <li><strong>Advance Booking Cleanup:</strong> Professional plaque and tartar removal for pre-booked
+                        patients.</li>
+                    <li><strong>Personalised Advice:</strong> Guidance on brushing, flossing, products, and nutrition.
+                    </li>
+                    <li><strong>Treatment Plan:</strong> If needed, we will provide a clear explanation of findings and
+                        next steps.</li>
+                </ul>
+
+                <h3>Limited Spots Available</h3>
+                <p>
+                    This free event runs for one morning only and appointment slots fill quickly.
+                    We encourage you to book early to secure a suitable time.
+                </p>
+
+                <p><em>We look forward to welcoming you on Saturday, 5th July!</em></p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 100SMILES Dental Care. All rights reserved.</p>
+            <address>
+                33 Fantail Street, Razole QLD<br>
+                Phone: 07 5000 5599<br>
+                <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a>
+            </address>
+        </footer>
+    </div> <!--End of container-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

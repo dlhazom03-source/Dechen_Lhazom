@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--This website was created by: Dechen Lhazom-->
+<html lang="en">
+
+<head>
+    <title>100SMILES Dental Care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Source+Sans+3:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <h1>100SMILES Dental Care</h1>
+        </header>
+
+        <!--Navigation Bar-->
+        <div class="info-panel">
+            <div class="info-left">
+                <a href="booking.html" class="panel-link">🗓️ Book Online</a>
+
+                <details class="hours-dropdown">
+                    <summary>🕗 Office Hours</summary>
+                    <ul>
+                        <li>Mon to Fri: 8:30am – 6:30pm</li>
+                        <li>Saturday and Sunday: 8:30am – 1:00pm</li>
+                    </ul>
+                </details>
+            </div>
+
+            <div class="info-right">
+                <a href="tel:0750005599" class="panel-link">📞 07 5000 5599</a>
+                <a href="mailto:admin@100smilesdentalcare.com.au" class="panel-link">✉️ Email Us</a>
+            </div>
+        </div>
+
+        <!-- Desktop / Tablet Navigation -->
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!--Mobile Mavigation-->
+        <div id="overlay" onclick="closeMenu()"></div>
+
+        <div id="side-menu">
+            <div class="close-btn" onclick="closeMenu()">✕</div>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="booking.html">Book Online</a>
+        </div>
+
+        <nav class="mobile-nav">
+            <a href="booking.html" class="mobile-book-btn">Book Online</a>
+            <div class="menu-icon" onclick="openMenu()">&#9776;</div>
+        </nav>
+
+        <!--Hero Image and Hero Text-->
+        <div class="hero-image">
+            <img src="Images/Dental_Hero_Image.jpg" alt="Dental care set">
+            <div class="hero-text">
+                <h1>Looking for reliable dental care?</h1>
+                <p> Welcome to <b>100SMILES Dental Care</b> your trusted local family dentist proudly serving the Razole
+                    community.
+                    We provide general, cosmetic, and emergency dental services focused on long-term oral health.</p>
+                <div class="hero-buttons">
+                    <a href="booking.html" class="btn-book">Book Appointment</a>
+                    <a href="contact.html" class="btn-enquire">Enquire Now</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <main id="main"> <!--Main content begins here-->
+            <section id="intro">
+                <div class="intro-content">
+                    <div class="intro-box">
+                        <h2>About our clinic</h2>
+                        <h3>Quality care that puts your comfort first.</h3>
+                        <p>At 100SMILES Dental Care, we want every patient to feel comfortable, understood and confident
+                            in their treatment. With over thirty years serving the Razole community and more than fifty
+                            years of combined experience, our team provides trusted general, cosmetic and restorative
+                            dentistry in a calm, welcoming setting.</p>
+
+                        <p>We believe in clear communication and personalised care, taking time to explain your options
+                            so you can make informed decisions about your oral health. Using digital X-rays, intraoral
+                            cameras, laser procedures and simple online booking, we aim to make every visit smooth,
+                            reassuring and centred on your wellbeing.</p>
+                    </div>
+
+                    <img src="Images/child_dental_checkup.jpg" alt="Child receiving a dental check-up"
+                        class="index-intro-img">
+                </div>
+            </section>
+
+            <!--Announcement section-->
+            <a href="services.html#free-checkup" class="announcement-link">
+                <section class="announcement">
+                    <div class="announcement-content">
+                        <div class="announcement-image">
+                            <img src="Images/free-dental-checkup-advert.png" alt="Free dental checkup advertisement">
+                        </div>
+                        <div class="announcement-text">
+                            <h2>Latest Announcements</h2>
+                            <p><strong>25% off</strong> your next dental visit when you book through our online booking
+                                form!</p>
+
+                            <p>🦷 Join us for a <strong>free dental checkup</strong> on Saturday, 5th July at
+                                <strong>9:00
+                                    AM</strong>.
+                            </p>
+
+                            <p>Until April 30, enjoy a <strong>10% discount</strong> on your Annual Dental Check-Up.</p>
+                            <p>Limited Spots Available!</p>
+                            <p>Click to learn more</p>
+                        </div>
+                    </div>
+                </section>
+            </a>
+
+            <section class="promo-banner">
+                <div class="promo-text">
+                    <h2>Reserve Your Appointment With Us</h2>
+                    <p>Your comfort and care come first. Secure your visit with our trusted dental team.</p>
+                </div>
+
+                <a href="booking.html" class="promo-btn">Book Appointment</a>
+            </section>
+
+            <section class="articles-preview">
+                <div class="articles-grid">
+                    <img src="Images/colorful_toothbrushes.jpg" alt="Colourful toothbrushes arranged in a circle">
+                    <div class="articles-content">
+                        <h2>Dental Health Articles</h2>
+                        <p>Explore our latest resources and expert advice for maintaining your dental health:</p>
+                        <ul>
+                            <li><a href="services.html#annual-checkup">The Importance of Annual Dental Check-Ups</a>
+                            </li>
+                            <li><a href="https://my.clevelandclinic.org/health/treatments/16914-oral-hygiene">Tips for
+                                    Maintaining Oral Hygiene</a></li>
+                            <li><a href="https://www.healthdirect.gov.au/dental-implant">Understanding Dental
+                                    Implants</a>
+                            </li>
+                            <li><a
+                                    href="https://www.colgate.com.au/oral-health/selecting-dental-products/choosing-the-right-toothbrush">How
+                                    to Choose the Right Toothbrush</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 100SMILES Dental Care. All rights reserved.</p>
+            <address>
+                33 Fantail Street, Razole QLD<br>
+                Phone: 07 5000 5599<br>
+                <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a>
+            </address>
+        </footer>
+    </div> <!--End of container-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
